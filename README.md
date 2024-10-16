@@ -1,8 +1,8 @@
-# Simple ETL Pipeline: PostgreSQL to Snowflake
+## Simple ETL Pipeline: PostgreSQL to Snowflake
 
 This ETL pipeline extracts data from a PostgreSQL database, validates it, and loads it into a Snowflake data warehouse. The pipeline is implemented using Python and leverages the `pandas` library alongside `SQLAlchemy` for database interactions.
 
-## Features:
+### Features:
 
 - **Data Extraction:** 
   - Connects to PostgreSQL to extract data from the `Games` table and loads it into a DataFrame.
