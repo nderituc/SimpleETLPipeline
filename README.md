@@ -4,6 +4,6 @@ This ETL pipeline extracts data from a PostgreSQL database, validates it, and lo
 Features:
 * Data Extraction: Connects to PostgreSQL to extract data from the Games table and loads it into a DataFrame.
 * Data Validation: Performs checks to ensure data integrity, including:
-Null value detection
-Data type validation for each column (e.g., integer for year and goals, string for round and teams).
-Data Loading: Appends validated data into a Snowflake table using batch inserts for improved performance.
+** Null value detection
+* Data type validation for each column (e.g., integer for year and goals, string for round and teams).
+* Data Loading: Appends validated data into a Snowflake table using batch inserts for improved performance.
