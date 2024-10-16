@@ -4,7 +4,7 @@ This ETL pipeline extracts data from a PostgreSQL database, validates it, and lo
 
 ### Features:
 
-- *Data Extraction:*
+- Data Extraction:
   - Connects to PostgreSQL to extract data from the `Games` table and loads it into a DataFrame.
 
 - **Data Validation:** 
