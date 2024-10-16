@@ -17,9 +17,3 @@ This ETL pipeline extracts data from a PostgreSQL database, validates it, and lo
 - **Data Loading:** 
   - Appends validated data into a Snowflake table using batch inserts for improved performance.
 
-### Usage:
-1. Configure the PostgreSQL and Snowflake connection strings in the script.
-2. Specify the source table in PostgreSQL and the target table in Snowflake.
-3. Run the pipeline to extract, validate, and load data.
-
-This pipeline is designed to ensure seamless data integration between PostgreSQL and Snowflake while maintaining data quality.
